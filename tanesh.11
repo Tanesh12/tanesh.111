@@ -1,0 +1,7 @@
+
+def solution(A):
+    N = len(A) + 1
+    B = (N * (N + 1)) // 2  
+    C = sum(A)  
+    D = B-C
+    return D
